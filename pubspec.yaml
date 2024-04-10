@@ -11,9 +11,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  provider: ^6.1.2
   http: ^1.2.1
   flutter_native_splash: ^2.4.0
   cached_network_image: ^3.3.1
+  flag: ^7.0.0
   cupertino_icons: ^1.0.6
 
 dev_dependencies:
@@ -57,6 +59,7 @@ flutter:
   assets:
     - assets/images/cat_load.gif
     - assets/images/cat_icon.png
+    - assets/images/bad_image.png
     - assets/images/title.png
 
   fonts:
