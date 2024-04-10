@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'config.dart' as cg;
 
 void main() {
   runApp(const MyApp());
@@ -11,10 +12,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
+      title: 'CatBreeds',
       theme: ThemeData(
-
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        fontFamily: 'Ubuntu',
+        colorScheme: ColorScheme.fromSeed(seedColor: cg.cBackgrounds),
         useMaterial3: true,
       ),
       home: const MyHomePage(title: 'Flutter Demo Home Page'),
